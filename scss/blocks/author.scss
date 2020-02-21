@@ -1,0 +1,25 @@
+.author {
+    display: flex;
+    margin-top: 32px;
+
+    &__content {
+        font-family: "GothamBook";
+        margin-top: 8px;
+        margin-left: 18px;
+    }
+
+    &__name {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+
+        @media screen and (max-width:1199px) {
+            font-size: 16px;
+        }
+    }
+
+    &__date {
+        font-size: 14px;
+        color: #55b7ff;
+    }
+}

@@ -1,0 +1,67 @@
+
+// font-family: 'Open Sans', sans-serif;
+
+
+
+
+$dark-blue:#2c4058;
+
+html, body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "GothamBook";
+    text-transform: uppercase;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+.title {
+    font-size: 44px;
+    font-family: "Gotham";
+    text-transform: uppercase;
+    color: $dark-blue;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-family: "Gotham";
+    text-transform: uppercase;
+    color: $dark-blue;
+    line-height: 1.545;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #4b5562;
+    line-height: 1.667;
+}
+
+.btn {
+    padding: 16px 0;
+    border: 1px solid #2c4058;
+    text-align: center;
+    color: $dark-blue;
+    text-transform: uppercase;
+    transition: all .7s;
+
+    &:hover {
+        color: #fff;
+        background: #000;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+

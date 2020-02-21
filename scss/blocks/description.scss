@@ -1,0 +1,66 @@
+.description {
+    padding-top: 56px;
+
+    @media screen and(max-width: 1199px) {
+        padding-top: 0;
+    }
+
+    @media screen and (max-width: 991px) {
+        margin-top: 20px;
+    }
+
+    &:first-child {
+        @media screen and (max-width: 991px) {
+            margin-bottom: 60px;
+        }
+    }
+
+    &__lead {
+        font-size: 22px;
+        font-family: "GothamBook";
+        color: #3f4e5f;
+        text-transform: uppercase;
+        margin-bottom: 3px;
+    }
+
+    &__text {
+        word-spacing: 1px;
+        margin-top: 22px;
+    }
+
+    &__button {
+        width: 190px;
+        margin-top: 32px;
+        margin-bottom: 52px;
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 25px;
+        }
+
+        @media screen and (max-width: 575px) {
+            padding: 14px 0;
+        }
+    }
+    
+    &__adress {
+        font-style: italic;
+        margin-left: 5px;
+    }
+
+    &__title {
+        @media screen and (max-width:767px) {
+             font-size: 40px;
+        }
+
+        @media screen and (max-width:575px) {
+            font-size: 27px;
+        }
+    }
+
+    &__location {
+        display: flex;
+        align-items: center;
+    }
+
+}
+

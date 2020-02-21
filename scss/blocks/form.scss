@@ -1,0 +1,50 @@
+.form {
+    margin-left: 50px;
+    max-width: 310px;
+    width: 100%;
+
+    @media screen and (max-width:575px) {
+       margin-left: 0;
+    }
+
+    &__input {
+        border: 0;
+        border-bottom: 1px solid $dark-blue;
+        outline: 0;
+        font-family: "GothamBook";
+        font-size: 18px;
+        color: $dark-blue;
+        padding-bottom: 17px;
+        width: 100%;
+        
+        &:first-child {
+            margin-bottom: 36px;
+        }
+
+        @media screen and (max-width:575px) {
+            padding-bottom: 10px;
+        }  
+    }
+
+    &__send {
+        text-align: right;
+        margin-top: 30px;
+
+        @media screen and (max-width:575px) {
+            text-align: left;
+        }
+    }
+
+    &__button {
+        width: 140px;
+        font-family: "GothamBook";
+
+        @media screen and (max-width:575px) {
+            padding: 10px 0;
+        }
+    }    
+}
+
+::-webkit-input-placeholder {
+    color: $dark-blue;
+}

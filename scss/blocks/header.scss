@@ -1,0 +1,80 @@
+.header {
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(78, 112, 150,.9);
+    
+      
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    } 
+
+}
+
+ 
+@media screen and (max-width:991px) {
+    .header__burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        right: 0;
+        z-index: 2;
+    
+        &:before,
+        &:after {
+            content: "";
+            background-color: #fff;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            left: 0;
+            transition: all 0.3s ease 0s;  
+        }
+
+        &:before {
+            top: 0;
+        }
+
+        &:after {
+            bottom: 0;
+        }
+
+        span {
+            position: absolute;
+            left: 0;
+            top: 9px;
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #fff;
+        }
+
+        &.active:before{
+            transform:rotate(45deg);
+            top: 9px;
+        }
+        &.active:after{
+            transform:rotate(-45deg);
+            bottom: 9px;
+        }
+
+        &.active span{
+            transform: scale(0);
+        }
+    }
+
+    .header__logo {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+
+

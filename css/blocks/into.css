@@ -1,0 +1,21 @@
+.intro {
+  position: relative;
+  height: 100%; }
+  .intro__content {
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2; }
+  .intro__simple {
+    font-size: 80px;
+    font-family: "Gotham";
+    letter-spacing: 3px; }
+    @media screen and (max-width: 1199px) {
+      .intro__simple {
+        font-size: 70px; } }
+  .intro__world {
+    font-size: 18px;
+    font-family: "GothamBook";
+    margin-top: 21px;
+    letter-spacing: 5px; }
