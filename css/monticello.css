@@ -265,10 +265,10 @@ img {
     letter-spacing: 5px; }
 
 .slick-top__item {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(85, 183, 255, 0.9)), to(rgba(126, 90, 255, 0.9))), url(/img/header.jpg) no-repeat;
-  background: -webkit-linear-gradient(left, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(/img/header.jpg) no-repeat;
-  background: -o-linear-gradient(left, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(/img/header.jpg) no-repeat;
-  background: linear-gradient(to right, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(/img/header.jpg) no-repeat;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(85, 183, 255, 0.9)), to(rgba(126, 90, 255, 0.9))), url(../img/header.jpg) no-repeat;
+  background: -webkit-linear-gradient(left, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(../img/header.jpg) no-repeat;
+  background: -o-linear-gradient(left, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(../img/header.jpg) no-repeat;
+  background: linear-gradient(to right, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(../img/header.jpg) no-repeat;
   background-size: cover;
   padding-top: 342px;
   padding-bottom: 316px; }
@@ -430,10 +430,10 @@ img {
     align-items: center; }
 
 .news {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(60, 127, 212, 0.91)), to(rgba(36, 204, 250, 0.91))), url(/img/news/news.jpg);
-  background: -webkit-linear-gradient(left, rgba(60, 127, 212, 0.91), rgba(36, 204, 250, 0.91)), url(/img/news/news.jpg);
-  background: -o-linear-gradient(left, rgba(60, 127, 212, 0.91), rgba(36, 204, 250, 0.91)), url(/img/news/news.jpg);
-  background: linear-gradient(to right, rgba(60, 127, 212, 0.91), rgba(36, 204, 250, 0.91)), url(/img/news/news.jpg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(60, 127, 212, 0.91)), to(rgba(36, 204, 250, 0.91))), url(../img/news/news.jpg);
+  background: -webkit-linear-gradient(left, rgba(60, 127, 212, 0.91), rgba(36, 204, 250, 0.91)), url(../img/news/news.jpg);
+  background: -o-linear-gradient(left, rgba(60, 127, 212, 0.91), rgba(36, 204, 250, 0.91)), url(../img/news/news.jpg);
+  background: linear-gradient(to right, rgba(60, 127, 212, 0.91), rgba(36, 204, 250, 0.91)), url(../img/news/news.jpg);
   background-size: cover;
   padding-top: 172px;
   padding-bottom: 208px;
@@ -581,10 +581,10 @@ img {
 
 .footer {
   height: 524px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(85, 183, 255, 0.9)), to(rgba(126, 90, 255, 0.9))), url(/img/footer.jpg);
-  background: -webkit-linear-gradient(left, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(/img/footer.jpg);
-  background: -o-linear-gradient(left, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(/img/footer.jpg);
-  background: linear-gradient(to right, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(/img/footer.jpg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(85, 183, 255, 0.9)), to(rgba(126, 90, 255, 0.9))), url(../img/footer.jpg);
+  background: -webkit-linear-gradient(left, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(../img/footer.jpg);
+  background: -o-linear-gradient(left, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(../img/footer.jpg);
+  background: linear-gradient(to right, rgba(85, 183, 255, 0.9), rgba(126, 90, 255, 0.9)), url(../img/footer.jpg);
   position: relative; }
   .footer__title {
     position: relative;
